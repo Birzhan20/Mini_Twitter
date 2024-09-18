@@ -1376,7 +1376,7 @@
                 return regeneratorRuntime.wrap((function (e) {
                     while (1) switch (e.prev = e.next) {
                         case 0:
-                            return e.abrupt("return", B({type: "delete", path: "/api/users/".concat(t, "/follow")}));
+                            return e.abrupt("return", B({type: "post", path: "/api/users/".concat(t, "/follow")}));
                         case 1:
                         case"end":
                             return e.stop()
@@ -1394,7 +1394,7 @@
                 return regeneratorRuntime.wrap((function (e) {
                     while (1) switch (e.prev = e.next) {
                         case 0:
-                            return e.abrupt("return", B({type: "delete", path: "/api/tweets/".concat(t, "/follow")}));
+                            return e.abrupt("return", B({type: "delete", path: "/api/users/".concat(t, "/follow")}));
                         case 1:
                         case"end":
                             return e.stop()
@@ -2018,4 +2018,4 @@
     }, ff65: function (e, t, n) {
     }
 });
-//# sourceMappingURL=app.7c9275be.js.map
+//# sourceMappingURL=app.ee2cdef2.js.map
